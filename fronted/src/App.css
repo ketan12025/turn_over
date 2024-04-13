@@ -1,0 +1,70 @@
+#root {
+  margin: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  width: 100%;
+}
+
+.header-top {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  font-size: 0.8rem;
+  justify-content: right;
+  align-items: center;
+}
+
+.header-top span {
+  padding: 0px 20px;
+}
+
+.header-bottom {
+  display: flex;
+  width: 100%;
+  height: 70%;
+  font-size: 1.8rem;
+  align-items: center;
+}
+
+.header-bottom-text {
+  width: 20%;
+  padding-left: 2%;
+}
+
+.header-bottom-links {
+  width: 60%;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.header-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-links li {
+  margin-right: 3rem;
+}
+
+.header-bottom-icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+  font-size: 1rem;
+}
+
+.header-bottom-layer-text {
+  height: 2vh;
+  font-size: 0.8rem;
+  background-color: gray;
+  padding: 2px;
+  text-align: center;
+}

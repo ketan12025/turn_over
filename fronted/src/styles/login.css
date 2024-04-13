@@ -1,0 +1,106 @@
+.login-form-container {
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form-container h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.welcome-text {
+  text-align: center;
+  font-weight: 700;
+}
+
+.welcome-motto {
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.login-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-container input {
+  padding: 8px;
+  width: 90%;
+}
+
+.input-block {
+  height: 5rem;
+}
+
+.login-form-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.login-form-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-form-container .error-message {
+  color: red;
+  font-size: 0.6rem;
+  margin-top: 2px;
+  height: 1em; /* Fixed height for error messages */
+}
+
+.have-account-text {
+  text-align: center;
+  margin: 3rem;
+  font-size: 0.8rem;
+}
+
+.otp-input-container {
+  display: flex;
+  margin: 4rem 0rem;
+}
+
+.otp-input {
+  width: 40px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the active input */
+.otp-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Style for the filled input */
+.otp-input:not(:placeholder-shown) {
+  background-color: #f8f9fa;
+}
+
+.category-container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.categoryRow{
+    display: flex;
+    align-items: center;
+}
