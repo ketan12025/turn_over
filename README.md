@@ -1,7 +1,7 @@
 
 ## Deployment
 
-To deploy this project run
+Follow below steps to start the project
 
 ```bash
   cd ./backend
@@ -14,4 +14,4 @@ To deploy this project run
 ```
 
 
-go to http://localhost:5173/ to explore the app
+Go to http://localhost:5173/ to explore the app
